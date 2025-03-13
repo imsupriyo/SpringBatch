@@ -51,7 +51,7 @@ public class BatchConfig {
     }
 
     @Bean
-    public MyJobLister jobLister() {
-        return new MyJobLister();
+    public MyJobListener jobLister() {
+        return new MyJobListener();
     }
 }
